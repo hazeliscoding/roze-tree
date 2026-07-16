@@ -59,8 +59,8 @@ export class SparkleCursorDirective {
     const glyph = glyphs[Math.floor(Math.random() * glyphs.length)] ?? '✦';
     this.renderer.setProperty(star, 'textContent', glyph);
 
-    const colors = ['var(--pink-1)', 'var(--aqua-1)', 'var(--lav-1)', 'var(--lemon-1)'];
-    const color = colors[Math.floor(Math.random() * colors.length)] ?? 'var(--pink-1)';
+    const colors = ['var(--red-1)', 'var(--silver-1)', 'var(--rose-1)', 'var(--smoke-1)'];
+    const color = colors[Math.floor(Math.random() * colors.length)] ?? 'var(--red-1)';
 
     const rot = `${Math.round(Math.random() * 70 - 35)}deg`;
     const scale = (0.75 + Math.random() * 0.7).toFixed(2);

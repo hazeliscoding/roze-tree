@@ -1,26 +1,26 @@
 {
   "profile": {
-    "name": "Hazel",
-    "handle": "@hazelbasil",
-    "bio": "🌸 software developer | anime + games | building cute things on the internet 🌸",
-    "avatarUrl": "assets/avatar.png"
+    "name": "Roze",
+    "handle": "@RozeAngel",
+    "bio": "🥀 software developer | anime + games | building cute things on the internet 🥀",
+    "avatarUrl": "assets/avatar.jpg"
   },
   "links": [
     {
       "label": "AniList",
-      "url": "https://anilist.co/user/hazelbasil",
+      "url": "https://anilist.co/user/RozeAngel",
       "emoji": "📺",
       "description": "Anime & manga I'm watching/reading"
     },
     {
       "label": "MyFigureCollection",
-      "url": "https://myfigurecollection.net/profile/hazelbasil",
+      "url": "https://myfigurecollection.net/profile/RozeAngel",
       "emoji": "🧸",
       "description": "Figures I own + wishlist"
     },
     {
       "label": "Backloggd",
-      "url": "https://backloggd.com/u/hazelbasil",
+      "url": "https://backloggd.com/u/RozeAngel",
       "emoji": "🎮",
       "description": "Games I'm playing + backlog"
     },
@@ -35,10 +35,10 @@
       "url": "https://discord.com/",
       "emoji": "💬",
       "description": "Tap to copy my Discord handle",
-      "copyText": ".hazelbasil."
+      "copyText": "roze.angel"
     }
   ],
   "footer": {
-    "text": "Made with 💖 by Hazel"
+    "text": "Made with 🖤 by Roze"
   }
 }

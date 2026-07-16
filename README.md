@@ -1,5 +1,5 @@
-# 🌸 HazelTree
-[![Deployment](https://github.com/hazeliscoding/hazel-tree/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/hazeliscoding/hazel-tree/actions/workflows/deploy.yml)
+# 🌹 RozeTree
+[![Deployment](https://github.com/hazeliscoding/roze-tree/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/hazeliscoding/roze-tree/actions/workflows/deploy.yml)
 
 A cute, lightweight Linktree-style profile page built with Angular.
 Content is driven by a single JSON file so you can update links, labels, emojis, and profile info without touching the UI.
@@ -51,7 +51,7 @@ Supports:
 Notes:
 
 - The app loads config from `assets/site-config.json` (relative), so it works correctly when deployed under a sub-path (GitHub Pages).
-- Put images under `public/assets/` and reference them like `assets/avatar.png`.
+- Put images under `public/assets/` and reference them like `assets/avatar.jpg`.
 
 ---
 

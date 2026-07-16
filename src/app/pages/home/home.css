@@ -36,13 +36,13 @@
 .card::before {
   left: -90px;
   top: -90px;
-  background: radial-gradient(circle at 30% 30%, var(--pink-2), transparent 60%);
+  background: radial-gradient(circle at 30% 30%, var(--red-1), transparent 60%);
 }
 
 .card::after {
   right: -90px;
   bottom: -110px;
-  background: radial-gradient(circle at 30% 30%, #bde7ff, transparent 60%);
+  background: radial-gradient(circle at 30% 30%, var(--silver-1), transparent 60%);
 }
 
 .top {
@@ -58,8 +58,8 @@
   height: 104px;
   border-radius: 999px;
   padding: 4px;
-  background: linear-gradient(135deg, var(--pink-1), #9fe0ff, #fff1b8);
-  box-shadow: 0 16px 40px rgba(255, 127, 191, 0.25);
+  background: linear-gradient(135deg, var(--red-1) 30%, #17090c 60%, var(--silver-1));
+  box-shadow: 0 14px 34px rgba(122, 14, 30, 0.32);
 }
 
 .avatar {
@@ -79,8 +79,8 @@
 
 .handle {
   margin: 0;
-  color: var(--muted);
-  font-weight: 600;
+  color: var(--red-1);
+  font-weight: 700;
   font-size: 0.95rem;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .link:focus-visible {
-  outline: 3px solid rgba(255, 137, 199, 0.55);
+  outline: 3px solid rgba(201, 36, 63, 0.55);
   outline-offset: 3px;
 }
 
@@ -192,8 +192,9 @@
   letter-spacing: 0.6px;
   padding: 3px 8px;
   border-radius: 999px;
-  background: rgba(255, 127, 191, 0.16);
-  border: 1px solid rgba(255, 127, 191, 0.28);
+  color: #fff;
+  background: var(--red-1);
+  border: 1px solid rgba(0, 0, 0, 0.12);
 }
 
 /* Footer */
@@ -235,7 +236,7 @@
 }
 
 .theme-toggle:focus-visible {
-  outline: 3px solid rgba(255, 137, 199, 0.55);
+  outline: 3px solid rgba(201, 36, 63, 0.55);
   outline-offset: 3px;
 }
 
@@ -254,12 +255,12 @@
   left: 50%;
   transform: translate(-50%, -10px);
   opacity: 0;
-  background: rgba(255, 127, 191, 0.9);
+  background: rgba(163, 24, 40, 0.94);
   color: white;
   padding: 10px 16px;
   border-radius: 999px;
   font-weight: 700;
-  box-shadow: 0 12px 30px rgba(255, 127, 191, 0.4);
+  box-shadow: 0 12px 30px rgba(163, 24, 40, 0.45);
   transition: opacity 180ms ease, transform 180ms ease;
   pointer-events: none;
   z-index: 5;
